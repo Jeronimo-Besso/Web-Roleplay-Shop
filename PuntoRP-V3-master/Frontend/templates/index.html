@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+        <link rel="stylesheet" href="/Frontend/static/stylesheetIndex.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+        <link rel="stylesheet" href="/Frontend/static/stylesheet_normas.css">
+        <link rel="stylesheet" href="/Frontend/static/stylesheet_tienda.css">
+        <link rel="stylesheet" href="/Frontend/static/stylesheet.css">
+        <link rel="stylesheet" href="/Frontend/static/producto.css">
+        <link rel="stylesheet" href="/Frontend/static/vehiculos.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+        <script type="module" src="/Frontend/Logica/Controladores/tienda.js"></script>
+
+
+        <script type="module" src="/Frontend/Logica/Controladores/index.js"></script>
+        <script src="/Frontend/Logica/Controladores/main.js" defer></script>
+    </head>
+    <body>
+        <nav>
+        <h3 class="nombre-server">PuntoRP</h3>
+        <div>
+            <a href="index.html" id="">Inicio</a>
+            <a href="#" id="tienda">Tienda</a>
+            <a href="#" id="normas">Normas</a>
+            <a href="https://discord.gg/eUejUWDHNc">Contactanos</a>
+        </div>
+        <a href="http://localhost:5000/login" class="login-link" id="login-btn">Iniciar Sesion</a>
+            <div class="contenedor-data-steam" id="contenedorSteam" style="display: none; align-items: center; gap: 10px;">
+                <img id="avatarSteam" src="" alt="Avatar de Steam" style="width: 10px; height: 50px; border-radius: 50%;" />
+                <span id="nombreSteam" style="font-weight: bold; color: #fff;"></span>
+                <a href="http://localhost:5000/logout" id="logoutBtn">
+                <i class="fas fa-right-from-bracket" style="color: white;"></i>
+                </a>
+        </div>
+    </nav>
+        <div class="contenedor" id="contenedor">
+
+            
+        </div>
+    </body>
+</html>
+

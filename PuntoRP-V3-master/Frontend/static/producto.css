@@ -1,0 +1,85 @@
+.container {
+  width: 210px;
+  flex-shrink: 0;
+  padding: 15px;
+  background: #151515;
+  text-align: center;
+  border: 1px solid #3f3f3f5a;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  position: relative;
+}
+
+.container .title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #f8f8f8;
+}
+
+.container .price {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2.2rem;
+  margin: 10px 0;
+}
+
+.container span {
+  font-size: 1.2rem;
+}
+
+.container .description {
+  color: #b7b7b7;
+  font-size: 1.1rem;
+  margin: 10px 0 10px;
+  height: 75px;
+}
+
+.container .offer {
+  display: block;
+  color: #6e6e6e;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.subscribe-button {
+  display: inline-block;
+  padding: 5px 0;
+  background-color: #ffffff;
+  color: #000000;
+  text-decoration: none;
+  border: 1px solid #000;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  width: 50%;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.subscribe-button:hover {
+  padding: 10px;
+}
+
+.ribbon-wrap {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: -20px;
+  left: 50px;
+  pointer-events: none;
+}
+
+.ribbon {
+  width: 200px;
+  font-size: 0.8rem;
+  text-align: center;
+  padding: 4px 0;
+  border: 1px solid #000;
+  background: #ffffff;
+  color: #000000;
+  position: absolute;
+  transform: rotate(-45deg);
+  right: -10px;
+  top: 55%;
+}

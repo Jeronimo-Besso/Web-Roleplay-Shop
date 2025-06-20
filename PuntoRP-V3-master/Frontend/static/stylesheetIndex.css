@@ -1,0 +1,116 @@
+body{
+    background-color: black;}
+
+.nombre-server{
+    color: white;
+}
+.contenedor {
+    width: 100vw;
+    max-width: 1500px; 
+    height: 100vh;
+    margin: auto;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+.nombre-server{
+    margin-left: 40px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+nav{
+    background-color: transparent;
+    position: absolute;
+    border-style: inherit;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:solid rgb(44, 43, 43);
+}
+
+nav button{
+    background-color: transparent;
+    border-radius: 5px;
+    width: 60px;
+    height: 40px;
+    color: white;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    color: aliceblue;
+    padding: 20px;
+}
+.login-frame{
+    margin-right: 50px;
+}
+.nombre-main{
+    margin-bottom: 0;
+    font-size: 120px;
+    color: whitesmoke;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.contenedor-data-steam {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(0, 0, 0, 0.05); /* Muy sutil */
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background 0.3s ease;
+  backdrop-filter: blur(4px);
+}
+
+.contenedor-data-steam:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#avatarSteam {
+  display: none; /* Oculto por defecto, se muestra desde JS si hay sesión */
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  object-fit: cover;
+}
+
+
+#nombreSteam {
+  color: #f0f0f0;
+  font-weight: 500;
+  font-size: 0.95rem;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  white-space: nowrap;
+}
+
+#logoutBtn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+  padding: 20px;
+  width: 20px;
+}
+
+#logoutBtn:hover {
+  background-color: rgba(255, 77, 77, 0.1);
+}
+
+#logoutBtn img {
+  width: 18px;
+  height: 18px;
+  filter: brightness(1.2);
+}

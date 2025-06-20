@@ -1,0 +1,77 @@
+
+.introduccion_normativas{
+    width: 100%;
+    font-size: 25px;
+}
+.pagina-normativas-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100;;
+}
+.pagina-normativas{
+    width: 100%;
+    box-shadow: 0 0 20px 5px rgba(141, 136, 136, 0.7);
+    display: flex;
+    height: 100%;
+}
+.titulo-pag{
+    color: white;
+}
+.section-1-norma{
+    padding-top: 10vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%; 
+    height: 80vh;
+
+}
+.section-1-norma h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.contenedor-normativas{
+    background-color: white;
+    border-right:solid whitesmoke;
+    width: 20%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.info-normativas-data{
+    overflow-y: auto;
+    padding-right: 10px;
+    max-height: 80vh;
+    width: 80%;
+    background-color: white;
+}
+.info-normativas-data h1,
+.info-normativas-data h2,
+.info-normativas-data h3,
+.info-normativas-data h4,
+.info-normativas-data h5,
+.info-normativas-data h6,
+.info-normativas-data p,
+.info-normativas-data li {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+.contenedor-normativas button{
+    border: 0cap;
+    padding: 20px;
+    width: 100%;;
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 5px;
+    background-color: transparent;
+    text-align: left;
+    font-size:16px;
+}
+
+
+.contenedor-normativas button:hover{
+    background-color: lightblue;
+}
