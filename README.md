@@ -21,7 +21,6 @@ Aplicación web para gestionar una tienda virtual dentro de un servidor de rolep
 ## 🔧 Funcionalidades
 
 - ✅ Login de usuarios con Steam (OpenID)
-- 💳 Integración completa con Mercado Pago
 - 🛠️ Panel de administración con:
   - Gestión de usuarios
   - Alta, edición y baja de membresías
