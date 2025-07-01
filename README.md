@@ -1,6 +1,6 @@
 # 🎮 Roleplay Shop Backend + Frontend
 
-Aplicación web para gestionar una tienda virtual dentro de un servidor de roleplay. Desarrollada con **Flask** para el backend y **HTML, CSS y JavaScript** puro para el frontend. Ofrece integración con **Steam** y **Mercado Pago**, además de administración de usuarios, membresías, monedas virtuales, vehículos y mafias.
+Aplicación web para gestionar una tienda virtual dentro de un servidor de roleplay. Desarrollada con **Flask** para el backend y **HTML, CSS y JavaScript** puro para el frontend. Ofrece integración con **Steam**, además de administración de usuarios, membresías, monedas virtuales, vehículos y mafias.
 
 ---
 
